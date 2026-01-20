@@ -1,6 +1,6 @@
-# 🚀 Personal Learning & Coding Platform
+# 🚀 POLO - Programming Online Language Organizer
 
-> A modern, scalable, full-stack web application by **Mohit Dwivedi** featuring an online code compiler, e-learning resources, advanced quiz system, and personal branding hub.
+> A modern, secure, and high-performance online compiler web application designed for students, educators, and professional developers. Write, compile, and execute code in multiple programming languages directly from your browser.
 
 ![Tech Stack](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
