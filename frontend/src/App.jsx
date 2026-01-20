@@ -8,6 +8,8 @@ import Home from './pages/Home';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Compiler from './pages/Compiler';
+import About from './pages/About';
+import Contact from './pages/Contact';
 import Resources from './pages/Resources';
 import Quizzes from './pages/Quizzes';
 import QuizPlay from './pages/QuizPlay';
@@ -25,6 +27,8 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/compiler" element={<Compiler />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/resources" element={<Resources />} />
           <Route path="/quizzes" element={<Quizzes />} />
           <Route path="/reviews" element={<Reviews />} />

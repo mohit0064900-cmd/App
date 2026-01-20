@@ -1,13 +1,15 @@
 export const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
-export const APP_NAME = import.meta.env.VITE_APP_NAME || 'Learning Platform';
+export const APP_NAME = import.meta.env.VITE_APP_NAME || 'POLO - Programming Online Language Organizer';
 
 export const LANGUAGES = [
-  { key: 'c', name: 'C', icon: '🔧' },
-  { key: 'cpp', name: 'C++', icon: '⚡' },
-  { key: 'python', name: 'Python', icon: '🐍' },
-  { key: 'java', name: 'Java', icon: '☕' },
-  { key: 'javascript', name: 'JavaScript', icon: '🟨' },
-  { key: 'csharp', name: 'C#', icon: '💜' }
+  // Mandatory languages - most prominent
+  { key: 'c', name: 'C', icon: '🔧', priority: 'mandatory' },
+  { key: 'cpp', name: 'C++', icon: '⚡', priority: 'mandatory' },
+  { key: 'java', name: 'Java', icon: '☕', priority: 'mandatory' },
+  // Additional languages
+  { key: 'python', name: 'Python', icon: '🐍', priority: 'optional' },
+  { key: 'javascript', name: 'JavaScript', icon: '🟨', priority: 'optional' },
+  { key: 'csharp', name: 'C#', icon: '💜', priority: 'optional' }
 ];
 
 export const CATEGORIES = [
